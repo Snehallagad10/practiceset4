@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Example page with embedded video.">
+    <meta name="keywords" content="HTML, video, embed">
+    <meta name="author" content="YourName">
+    <title>Embedded Video Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .video-container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        iframe {
+            width: 100%;
+            height: 450px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="video-container">
+        <h1>Watch this Amazing Video!</h1>
+        <!-- Embed video from YouTube -->
+            <a href="https://www.youtube.com" target="_blank">
+            </a>
+    </div>
+
+</body>
+</html>
